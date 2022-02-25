@@ -5,7 +5,7 @@ url = 'https://raw.githubusercontent.com/etcpwd13/telegram/main/chatbotqa3.tsv'
 
 df = pd.read_csv(url, sep= "\t")
 
-base_url = "https://api.telegram.org/bot5252519849:AAEWUqMKt3DlpBstMOSUQ5oLpTKu4PQFBz8"
+base_url = "https://api.telegram.org/<my_key>"
 
 def read_msg(offset):
   parameters = {
